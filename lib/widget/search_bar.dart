@@ -197,7 +197,7 @@ class _SearchBarState extends State<SearchBar> {
                 Text('搜索',
                     style: TextStyle(
                       color: Colors.blue,
-                      fontSize: 26,
+                      fontSize: 18,
                     )),
                 widget.reghtButtonClick),
           )

@@ -1,6 +1,5 @@
 import 'dart:async';
 import 'dart:convert';
-import 'package:xiecheng/model/home_model.dart';
 import 'package:http/http.dart' as http;
 import 'package:xiecheng/model/search_model.dart';
 

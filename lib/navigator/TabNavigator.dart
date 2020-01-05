@@ -34,6 +34,8 @@ class _TabNavigatorState extends State<TabNavigator> {
             _currentIndex = index;
           });
         },
+        // 禁止pageview左右滑动
+        physics: NeverScrollableScrollPhysics(),
         // 指定控制器
         controller: _controller,
         // 指定子项
